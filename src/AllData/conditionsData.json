@@ -1,0 +1,43 @@
+[
+
+    {
+        "id":1,
+        "title":"Endoscopy",
+        "Details":"An endoscopy is a procedures inside your body are looked at using an instrument called an endoscope.",
+        "deta":"We provide diagnostic and therapeutic endoscopy services with wide spectrum.",
+        "qes":"What is An Endoscopic Ultrasound?",
+        "ans":"Donec fringilla quamut ultricies tempus. In gravida dolorvel nullagravida conseenean placerat risus velimpert laoreroin tortorpurus euismodac portaeget faucibusnec mauisqonec fringilla quamutse ultricies tempn gravida dolorvel nullagravida conenean placerat risus veliert laoreroin tortorpurus euismodaaEtiam gravida purus a lacus tincidunt, at egestas arcu ullamcorpeed accumsan.",
+        "ans2":"Sempus semsed ultrices nunc scelerisque etenean vel maximus diamurabitur ultricies veliteu nibh congue lobortisraesent vitae eroseget nuncommodo convalliulla accumsan convallis eratce lorem portaeget lorem faucibusnec mauisque tortorpurus euismodac lorrem sitamret portaegete.",
+        "img":"https://i.ibb.co/d0p8BRj/icon1-removebg-preview.png"
+    },
+    {
+        "id":2,
+        "title":"Acid Reflux",
+        "Details":"a burning pain or discomfort that may move from your stomach to your abdomen or chest,",
+        "deta":"We provide diagnostic and therapeutic endoscopy services with wide spectrum.",
+        "qes":"What is Acid Reflux?",
+        "ans":"Donec fringilla quamut ultricies tempus. In gravida dolorvel nullagravida conseenean placerat risus velimpert laoreroin tortorpurus euismodac portaeget faucibusnec mauisqonec fringilla quamutse ultricies tempn gravida dolorvel nullagravida conenean placerat risus veliert laoreroin tortorpurus euismodaaEtiam gravida purus a lacus tincidunt, at egestas arcu ullamcorpeed accumsan.",
+        "ans2":"Sempus semsed ultrices nunc scelerisque etenean vel maximus diamurabitur ultricies veliteu nibh congue lobortisraesent vitae eroseget nuncommodo convalliulla accumsan convallis eratce lorem portaeget lorem faucibusnec mauisque tortorpurus euismodac lorrem sitamret portaegete.",
+        "img":"https://i.ibb.co/F3hkmPK/icon3-removebg-preview.png"
+    },
+    {
+        "id":3,
+        "title":"Liver Disease",
+        "Details":"The most common causes are hepatitis and other viruses, and alcohol abuse.",
+        "deta":"We provide diagnostic and therapeutic endoscopy services with wide spectrum.",
+        "qes":"What is An Liver Disease?",
+        "ans":"Donec fringilla quamut ultricies tempus. In gravida dolorvel nullagravida conseenean placerat risus velimpert laoreroin tortorpurus euismodac portaeget faucibusnec mauisqonec fringilla quamutse ultricies tempn gravida dolorvel nullagravida conenean placerat risus veliert laoreroin tortorpurus euismodaaEtiam gravida purus a lacus tincidunt, at egestas arcu ullamcorpeed accumsan.",
+        "ans2":"Sempus semsed ultrices nunc scelerisque etenean vel maximus diamurabitur ultricies veliteu nibh congue lobortisraesent vitae eroseget nuncommodo convalliulla accumsan convallis eratce lorem portaeget lorem faucibusnec mauisque tortorpurus euismodac lorrem sitamret portaegete.",
+        "img":"https://i.ibb.co/3dq8jC1/icon4-removebg-preview.png"
+    },
+    {
+        "id":4,
+        "title":"Colonscopy",
+        "Details":"A colonoscopy (koe-lun-OS-kuh-pee) is an exam used to detect changes.",
+        "deta":"We provide diagnostic and therapeutic endoscopy services with wide spectrum.",
+        "qes":"What is An Colonscopy?",
+        "ans":"At egestas arcu ullamcorpeed accumsan,Donec fringilla quamut ultricies tempus. In gravida dolorvel nullagravida conseenean placerat risus velimpert laoreroin tortorpurus euismodac portaeget faucibusnec mauisqonec fringilla quamutse ultricies tempn gravida dolorvel nullagravida conenean placerat risus veliert laoreroin tortorpurus euismodaaEtiam gravida purus a lacus tincidunt, at egestas arcu ullamcorpeed accumsan.",
+        "ans2":"Sempus semsed ultrices nunc scelerisque etenean vel maximus diamurabitur ultricies veliteu nibh congue lobortisraesent vitae eroseget nuncommodo convalliulla accumsan convallis eratce lorem portaeget lorem faucibusnec mauisque tortorpurus euismodac lorrem sitamret portaegete.",
+        "img":"https://i.ibb.co/bPRJN1f/icon2-removebg-preview.png"
+    }
+]
