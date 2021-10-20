@@ -4,6 +4,8 @@ import UseFirebase from '../../Hooks/UseFirebase';
 import { useHistory, useLocation } from 'react-router';
 import './SignInTwo.css';
 import useAuth from '../../Hooks/useAuth';
+import handleSignIn from './SignUpTwo';
+
 
 
 
@@ -22,7 +24,7 @@ const SignInTwo = () => {
     }
 
     return (
-        <div className="login-form">
+        <div onSubmit={handleSignIn} className="login-form">
         <div className="center mt-5">
             <h1>Login</h1>
             <form >

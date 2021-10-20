@@ -5,34 +5,20 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 
 const SignUpTwo = () => {
-
     const [user, setUser] = useState({});
     const [email, setEmail] = useState('') 
     const [password, setPassword] = useState('')
 
-
-    const auth = getAuth();
-
     const handleEmailChange = e => {
-        setEmail(e.target.value)
-    }
-    
-    const handlePasswordChange = e => {
-        setPassword(e.target.value)
-    }
-    const handleUserChange = e => {
-        setUser(e.target.value)
-    }
-    
-    // // const handleSignUp = e => {
-    // //     signInWithEmailAndPassword (auth, email, password)
-    // //     .then((result) => {
-    // //             const user = result.user;
-    // //         })
-    // //     e.preventDefault();
-    // }
-    
+            setEmail(e.target.value)
+        }
 
+        const handlePasswordChange = e => {
+                setPassword(e.target.value)
+            }
+
+            const handleUserChange = e => {
+                    setUser(e.target.value)}
 
     return (
         <div className="login-form">
@@ -49,11 +35,6 @@ const SignUpTwo = () => {
                    <span></span>
                     <label>Password</label>
                 </div>
-                <div className="text_field">
-                    <input onBlur={handlePasswordChange} type="password" required />
-                    <span></span>
-                    <label>Re-enter Password</label>
-                </div>
                 <input type="submit" value="SignUp" />
                 <div className="signup_link">
                    Have a Account? <Link to="/login">Login</Link>
@@ -61,7 +42,34 @@ const SignUpTwo = () => {
             </form>
         </div>
         </div>
-    );
-    }
+        );
+        };
+    // const [user, setUser] = useState({});
+    // const [email, setEmail] = useState('') 
+    // const [password, setPassword] = useState('')
+
+
+    // const auth = getAuth();
+
+    // const handleEmailChange = e => {
+    //     setEmail(e.target.value)
+    // }
+    
+    // const handlePasswordChange = e => {
+    //     setPassword(e.target.value)
+    // }
+    // const handleUserChange = e => {
+    //     setUser(e.target.value)
+    
+    
+    // // const handleSignUp = e => {
+    // //     signInWithEmailAndPassword (auth, email, password)
+    // //     .then((result) => {
+    // //             const user = result.user;
+    // //         })
+    // //     e.preventDefault();
+    // }
+    
+
 
 export default SignUpTwo;
