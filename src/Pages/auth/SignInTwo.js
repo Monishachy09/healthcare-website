@@ -1,45 +1,52 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import UseFirebase from '../../Hooks/UseFirebase';
 import { useHistory, useLocation } from 'react-router';
 import './SignInTwo.css';
 import useAuth from '../../Hooks/useAuth';
-import handleSignIn from './SignUpTwo';
+import { getAuth } from '@firebase/auth';
 
 
 
 
-const SignInTwo = () => {
+
+ function SignInTwo  ()  {
     const {signInUsingGoogle} = useAuth();
     const location = useLocation();
     const history = useHistory();
+
     const redirect_uri = location.state?.from || '/home'
 
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()
-        .then(result => {
-            history.push(redirect_uri);
-        })
+         history.push(redirect_uri);
+        
     }
 
+    
+   
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    
+
     return (
-        <div onSubmit={handleSignIn} className="login-form">
+        <div className="login-form">
         <div className="center mt-5">
             <h1>Login</h1>
-            <form >
+            <form>
                 <div className="text_field">
-                    <input type="text" required />
+                    <input type="text" value={email}  onChange={(e) => setEmail(e.target.value)}  required />
                     <span></span>
-                    <label>Username</label>
+                    <label>Enter Email</label>
                 </div>
                 <div className="text_field">
-                    <input type="password" required />
+                    <input type="password" value={password}  onChange={(e) => setPassword(e.target.value)} required />
                     <span></span>
                     <label>Password</label>
                 </div>
                 <div className="pass">Forgot Password?</div>
-                <input type="submit" value="Login" />
+                <input  type="submit" value="Login" />
+
                 <div className="signup_link">
                     Not a member? <Link to="/signUpTwo">Signup</Link>
                     <h6>Login With </h6>
@@ -49,6 +56,9 @@ const SignInTwo = () => {
         </div>
     </div>
     );
-};
+    };
+
+
+
 
 export default SignInTwo;
